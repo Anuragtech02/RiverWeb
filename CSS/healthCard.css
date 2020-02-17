@@ -1,0 +1,88 @@
+.containerCard{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.cardPrevention {
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; 
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .cardPrevention:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerPrevention {
+    padding: 2px 16px;
+  }
+
+  .cardSofa {
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; 
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .cardSofa:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerSofa {
+    padding: 2px 16px;
+  }  
+
+  .cardCure {
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; 
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .cardCure:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+  .containerCure {
+    padding: 2px 16px;
+  }
+
+  .cardSirs {
+    margiN: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; 
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .cardSirs:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerSirs {
+    padding: 2px 16px;
+  }
