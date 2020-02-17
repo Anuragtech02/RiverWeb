@@ -1,0 +1,37 @@
+body{
+    background-image: url("../Assets/BG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+.greenBack{
+    width:35%;
+    height:70%;
+    background-color: #085542;
+    align-content:center;
+    display:block;
+}
+.whiteBack{
+    background-color: white;
+    color:black;
+    width:98%;
+
+}
+.textReview{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.addImages img{
+    width:50%;
+    align-items:center;
+    display:block;
+    
+}
+.selectButton select{
+    display:block;
+    background-color:#F49E1F;
+    color:white;
+    width:50%;
+    font-size:125%;
+    font-family:calibri;
+}
