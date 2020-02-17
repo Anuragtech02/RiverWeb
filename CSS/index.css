@@ -1,0 +1,83 @@
+body{
+    background: url('../Assets/homeBG.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-right: 20%;
+}
+.logo h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #00464E;
+}
+.rightContent{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.rightContent h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.rightContent a {
+    text-decoration: none;
+    color: black;
+}
+.rightContent a:hover{
+    color: #006D70;
+}
+.textArea{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.bigText{
+    line-height: 20px;
+}
+.river{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #549391;
+}
+.embankment{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #00464E;
+}
+.smallText{
+    width: 40%;
+}
+.smallText p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 40px;
+    color: #787878;
+}
+.btn{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: max-content;
+    border-radius: 20px;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: #00464E;
+    display: flex;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.btn img{
+    margin-left: 10px;
+    width: 20%;
+}
