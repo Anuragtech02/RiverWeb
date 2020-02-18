@@ -26,6 +26,7 @@ nav{
 }
 .rightContent a {
     text-decoration: none;
+    font-size: 90%;
     color: black;
 }
 .rightContent a:hover{
@@ -59,7 +60,6 @@ nav{
     color: #787878;
 }
 .btn{
-    margin-top: 5%;
     margin-left: 5%;
     width: max-content;
     border-radius: 20px;

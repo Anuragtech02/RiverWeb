@@ -5,33 +5,50 @@ body{
     color:white;
 }
 .greenBack{
-    width:35%;
-    height:70%;
+    width:fit-content;
     background-color: #085542;
-    align-content:center;
+    align-items:center;
     display:block;
+    border-radius: 5px;
+    padding-bottom: 5px;
 }
 .whiteBack{
     background-color: white;
     color:black;
-    width:98%;
-
+    margin: 10px;
+    border-radius: 5px;
+    width:fit-content;
 }
 .textReview{
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 .addImages img{
-    width:50%;
-    align-items:center;
+    width:30%;
     display:block;
+    justify-content: center;    
+    margin: auto;
     
 }
-.selectButton select{
-    display:block;
-    background-color:#F49E1F;
-    color:white;
-    width:50%;
-    font-size:125%;
-    font-family:calibri;
+
+.type, .trees, .leakHoles, .rain, .grass, .ratHoles{
+    margin:auto;
+    padding: 10px;
+    display:flex;
 }
+
+.type select, .trees select, .leakHoles select, .rain select, .grass select, .ratHoles select{
+    margin-left: 10%;
+    background-color: #F49E1F;
+    width: fit-content;
+    border-radius: 5px;
+    width:30%;
+    color: white;
+}
+.type{
+    text-align: left;
+    align-items: right;
+}
+.type,.trees,.leakHoles ,.rain ,.grass ,.ratHoles{
+    width: 170%;
+} 
